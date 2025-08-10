@@ -11,21 +11,21 @@ stm32f1-builds: unicore-mx/lib/libucmx_stm32f1.a
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=olimexstm32h103 LOADER=noloader
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2 LOADER=noloader
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2white LOADER=noloader
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=bluepill LOADER=loader1k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=baite LOADER=loader1k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=olimexstm32h103 LOADER=loader1k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2 LOADER=loader1k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2white LOADER=loader1k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=bluepill LOADER=loader2k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=baite LOADER=loader2k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=olimexstm32h103 LOADER=loader2k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2 LOADER=loader2k
-	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2white LOADER=loader2k
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=bluepill LOADER=loader4k
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=baite LOADER=loader4k
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=olimexstm32h103 LOADER=loader4k
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2 LOADER=loader4k
 	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2white LOADER=loader4k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=bluepill LOADER=loader8k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=baite LOADER=loader8k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=olimexstm32h103 LOADER=loader8k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2 LOADER=loader8k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2white LOADER=loader8k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=bluepill LOADER=loader16k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=baite LOADER=loader16k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=olimexstm32h103 LOADER=loader16k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2 LOADER=loader16k
+	$(MAKE) -f Makefile.stm32f1 PLATFORM=stlinkv2white LOADER=loader16k
 
 clean:
 	$(MAKE) -C unicore-mx clean

@@ -1,6 +1,6 @@
-/* Generic STM32F1, application at 0x4000 */
+/* Generic STM32F1, application at 0x1000 */
 MEMORY {
-       rom (rx) : ORIGIN = 0x08004000, LENGTH = 128K-0x4000
+       rom (rx) : ORIGIN = 0x08001000, LENGTH = 128K-0x1000
        ram (rwx) : ORIGIN = 0x20000000, LENGTH = 20K
 }
 
